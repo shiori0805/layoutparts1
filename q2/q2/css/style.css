@@ -5,6 +5,11 @@
   justify-content: center;
 }
 
+ul li:not(:only-child){
+  margin-top: 0;
+}
+
+
 .list-card{
 list-style: none;
 width: 200px;
