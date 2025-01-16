@@ -5,28 +5,23 @@
   justify-content: center;
 }
 
-ul li:not(:only-child){
+.list:not(:only-child){
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 
 .list-card{
-list-style: none;
-width: 200px;
-margin: 60px;
-outline: 10px solid #655;
-box-shadow: 0 0 0 6px #655;
-border-radius: 13px;
-padding: 10px;
-background-color: #d2b48c;
+  list-style: none;
+  width: 200px;
+  margin-right: 60px;
+  outline: 10px solid #655;
+  box-shadow: 0 0 0 6px #655;
+  border-radius: 13px;
+  padding: 10px;
+  background-color: #d2b48c;
 }
 
-.list-card:not(:first-child){
+li:nth-child(3){
   margin-right: 0;
-  margin-bottom: 0;
-}
-
-.list-card:not(:last-child){
-  margin-left: 0;
-  margin-bottom: 0;
 }
